@@ -22,7 +22,7 @@ This project implements a facial recognition system leveraging **Eigenfaces** fo
   - **Testing Set**: 5 images per class.
 - **Preprocessing**:
   - Images were resized, centered, normalized, and flattened into vectors for PCA transformation.
-- **Dataset Source**: Custom or available in the project directory.
+- **Dataset Source**: Available in the project directory.
 
 ---
 
@@ -35,3 +35,24 @@ This project implements a facial recognition system leveraging **Eigenfaces** fo
   - `Scikit-learn`: Utilities for PCA and cross-validation.
 
 ---
+
+## Results
+Classification Accuracy:
+- Original Dimensions (112x92): Achieved an accuracy of 94.75%.
+- Resized Dimensions (56x46): Achieved an accuracy of 95.75%.
+
+---
+
+## Key Learnings
+- Developed expertise in dimensionality reduction techniques like PCA.
+- Understood how "Eigenfaces" represent the significant features of facial images.
+- Learned the trade-offs between computational efficiency and accuracy through image resizing.
+- Gained practical experience implementing a simple yet effective 1NN classifier.
+
+---
+
+## Future Enhancements
+- Experiment with advanced classifiers like Support Vector Machines (SVM) or Neural Networks for improved accuracy.
+- Explore other dimensionality reduction methods such as Linear Discriminant Analysis (LDA).
+- Extend the system to larger datasets for improved generalizability.
+- Add real-time facial recognition capability using video input.
